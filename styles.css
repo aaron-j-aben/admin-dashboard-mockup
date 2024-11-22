@@ -1,14 +1,26 @@
 /* Mock Admin Dashboard Styles */
 /* NOTE: Explicitly given directions to only use the Grid module */
 * {
+    --accent-color: #1992d4;
     margin: 0;
     padding: 0;
+}
+
+#dashboard {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 5fr;
+
+}
+
+#sidebar {
+    background-color: var(--accent-color);
 }
 
 #sidebar a {
     display: grid;
     align-items: center;
-    grid-template-columns: 1fr 9fr;
+    grid-template-columns: 1fr 8fr;
     color: white;
 }
 
