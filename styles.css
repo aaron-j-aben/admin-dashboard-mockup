@@ -4,24 +4,66 @@
     --accent-color: #1992d4;
     margin: 0;
     padding: 0;
+    font-family: system-ui, sans-serif;
 }
 
 #dashboard {
     display: grid;
     grid-template-columns: 1fr 4fr;
     grid-template-rows: 1fr 5fr;
-
+    height: 100vh;
 }
 
 #sidebar {
     background-color: var(--accent-color);
+    grid-row: 1 / -1;
+    padding: 30px 40px;
+}
+
+#sidebar div {
+    margin-bottom: 10px;
+}
+
+#sidebar ul {
+    display: grid;
+    grid-auto-rows: 2.5em;
+    margin-bottom: 50px;
+}
+
+#sidebar svg {
+    fill: white;
+}
+
+#header {
+    display: flex;
+    color: white;
+    gap: 8px;
+    align-items: center;
+    font-size: clamp(26px, 2vw + 1rem,36px);
+}
+
+#logo {
+    padding-top: 0.3em;
+}
+
+#sidebar li {
+    list-style-type: none;
+}
+
+#sidebar li:hover {
+    transform: translate(0.1em, -0.1em);
+    text-shadow: -0.1rem 0.2rem 0.5rem  rgb(80 80 80 / 50%);
+    box-shadow: -0.1rem 0.2rem 0.5rem  rgb(80 80 80 / 50%);
 }
 
 #sidebar a {
     display: grid;
     align-items: center;
+    padding: 0 0.5em;
     grid-template-columns: 1fr 8fr;
+    gap: 1rem;
     color: white;
+    font-size: 1.6rem;
 }
 
 #sidebar a:visited {
