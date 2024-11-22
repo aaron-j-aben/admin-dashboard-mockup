@@ -9,6 +9,11 @@
     display: grid;
     align-items: center;
     grid-template-columns: 1fr 9fr;
+    color: white;
+}
+
+#sidebar a:visited {
+    color: white;
 }
 
 #sidebar svg {
