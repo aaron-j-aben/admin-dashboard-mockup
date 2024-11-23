@@ -127,6 +127,27 @@ html {
 /* Portion below search bar */
 #base-bottom {
     display: flex;
+    justify-content: space-between;
+}
+
+#user-name-full {
+    font-size: 1.4rem;
+}
+
+#user-actions {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+#user-actions > button {
+    font-size: 1rem;
+    height: 2.2rem;
+    width: 6rem;
+    border-radius: 30px;
+    border: none;
+    background-color: var(--accent-color);
+    color: white;
 }
 
 /* Main Stage Styles */
