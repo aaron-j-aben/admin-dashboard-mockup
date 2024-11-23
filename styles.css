@@ -124,6 +124,11 @@ html {
     grid-column: -2 / -1;
 }
 
+/* Portion below search bar */
+#base-bottom {
+    display: flex;
+}
+
 /* Main Stage Styles */
 #main-stage {
     background-color: rgb(211, 218, 222);
