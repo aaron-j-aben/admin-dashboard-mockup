@@ -7,6 +7,10 @@
     font-family: system-ui, sans-serif;
 }
 
+html {
+    font-size: 20px;
+}
+
 #dashboard {
     display: grid;
     grid-template-columns: 1fr 4fr;
@@ -14,6 +18,7 @@
     height: 100vh;
 }
 
+/* Sidebar Styles */
 #sidebar {
     background-color: var(--accent-color);
     grid-row: 1 / -1;
@@ -39,7 +44,7 @@
     color: white;
     gap: 8px;
     align-items: center;
-    font-size: clamp(26px, 2vw + 1rem,36px);
+    font-size: 1.8rem;
 }
 
 #logo {
@@ -63,7 +68,7 @@
     grid-template-columns: 1fr 8fr;
     gap: 1rem;
     color: white;
-    font-size: 1.6rem;
+    font-size: clamp(20px, 2vw + 1rem, 24px);
 }
 
 #sidebar a:visited {
@@ -76,4 +81,50 @@
 
 .nav-option {
     text-decoration: none;
+}
+
+/* Search bar and Hero Styles */
+#base {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-column: 2 / -1;
+    grid-row: 1;
+    padding: 20px 50px;
+    box-shadow: 0 0.2rem 0.5rem rgb(80 80 80 / 50%);
+}
+
+#base-top {
+    display: grid;
+    grid-column: 1;
+    grid-template-columns: 6fr 4fr;
+}
+
+#search-bar {
+    display: grid;
+    grid-template-columns: 1em 1fr;
+    align-items: center;
+    gap: 1em;
+}
+
+#dash-search {
+    grid-column: 2 / -1;
+    border-radius: 15px;
+    height: 2rem;
+    font-size: 1.2rem;
+    padding: 0 0.75em;
+}
+
+#account-status {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 10px;
+    grid-column: -2 / -1;
+}
+
+/* Main Stage Styles */
+#main-stage {
+    background-color: rgb(211, 218, 222);
+    display: grid;
+    z-index: -1;
 }
