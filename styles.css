@@ -87,6 +87,7 @@ html {
 #base {
     display: grid;
     grid-template-rows: 1fr 1fr;
+    gap: 30px;
     grid-column: 2 / -1;
     grid-row: 1;
     padding: 20px 50px;
@@ -103,7 +104,7 @@ html {
     display: grid;
     grid-template-columns: 1em 1fr;
     align-items: center;
-    gap: 1em;
+    gap: 1.4em;
 }
 
 #dash-search {
