@@ -93,7 +93,7 @@ h1 {
 #base {
     display: grid;
     grid-template-rows: 1fr 1fr;
-    gap: 30px;
+    gap: 24px;
     grid-column: 2 / -1;
     grid-row: 1;
     padding: 20px 50px;
