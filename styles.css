@@ -167,6 +167,24 @@ html {
     display: grid;
     grid-template-columns: 5fr 3fr;
     grid-template-rows: 1fr 1fr;
-    z-index: -1;
+    z-index: -1; /* So shadows from top nav display over the main stage */
+
+    padding: 40px 20px;
+    gap: 20px;
+}
+
+#projects {
+    grid-column: 1 / 2;
+    grid-row: 1 / -1;
+}
+
+#announcements {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+#trending {
+    grid-column: 2;
+    grid-row: 2;
 }
 
