@@ -204,16 +204,18 @@ h1 {
 .card-container {
     display: grid;
     grid-template-rows: repeat(3, 1fr);
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     overflow: auto;
     gap: 20px;
 }
 
 .project-card {
     border-radius: 10px;
-    border-left: goldenrod;
+    border-left: 10px solid rgb(221, 188, 0);
     background-color: white;
-    height: 220px;
+    height: 120px;
+    padding: 20px;
+    box-shadow: -0.1rem 0.1rem 0.3rem  rgb(80 80 80 / 30%);;
 }
 
 #announcements {
