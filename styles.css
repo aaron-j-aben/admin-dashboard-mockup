@@ -192,6 +192,10 @@ h1 {
     gap: 20px;
 }
 
+.content-box > h1 {
+    margin-bottom: 0.6rem;
+}
+
 #projects {
     grid-column: 1 / 2;
     grid-row: 1 / -1;
@@ -203,6 +207,13 @@ h1 {
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     overflow: auto;
     gap: 20px;
+}
+
+.project-card {
+    border-radius: 10px;
+    border-left: goldenrod;
+    background-color: white;
+    height: 220px;
 }
 
 #announcements {
