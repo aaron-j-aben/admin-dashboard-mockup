@@ -28,6 +28,7 @@ h1 {
     background-color: var(--accent-color);
     grid-row: 1 / -1;
     padding: 30px 40px;
+    text-shadow: -0.1rem 0.1rem 0.1rem  rgb(80 80 80 / 50%);
 }
 
 #sidebar div {
@@ -59,7 +60,6 @@ h1 {
 #sidebar li {
     display: flex;
     list-style-type: none;
-    text-shadow: -0.1rem 0.1rem 0.1rem  rgb(80 80 80 / 50%);
 }
 
 #sidebar li:hover {
