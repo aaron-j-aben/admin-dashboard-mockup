@@ -11,6 +11,11 @@ html {
     font-size: 20px;
 }
 
+h1 {
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
 #dashboard {
     display: grid;
     grid-template-columns: 1fr 4fr;
