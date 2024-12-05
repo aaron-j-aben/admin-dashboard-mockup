@@ -130,8 +130,16 @@ html {
     justify-content: space-between;
 }
 
+#user-greeting-text {
+    min-width: 250px;
+}
+
+#greet {
+    font-size: clamp(0.8rem, 1vw, 26px);
+}
+
 #user-name-full {
-    font-size: 1.4rem;
+    font-size: clamp(1.2rem, 1.5vw, 1.8rem);
 }
 
 #user-actions {
