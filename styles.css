@@ -59,11 +59,11 @@ h1 {
 #sidebar li {
     display: flex;
     list-style-type: none;
+    text-shadow: -0.1rem 0.1rem 0.1rem  rgb(80 80 80 / 50%);
 }
 
 #sidebar li:hover {
     transform: translate(0.1em, -0.1em);
-    text-shadow: -0.1rem 0.2rem 0.5rem  rgb(80 80 80 / 50%);
     box-shadow: -0.1rem 0.2rem 0.5rem  rgb(80 80 80 / 50%);
 }
 
