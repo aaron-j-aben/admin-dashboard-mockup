@@ -164,6 +164,7 @@ html {
 /* Main Stage Styles */
 #main-stage {
     background-color: rgb(211, 218, 222);
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
     z-index: -1;
 }
