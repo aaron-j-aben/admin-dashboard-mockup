@@ -204,6 +204,10 @@ h2 {
     box-shadow: 0.2rem 0.1rem 0.3rem  rgb(80 80 80 / 30%);
 }
 
+.stage-content p {
+    color: rgba(61, 61, 61, 0.616);
+}
+
 .content-box  h1 {
     margin-bottom: 0.6rem;
 }
