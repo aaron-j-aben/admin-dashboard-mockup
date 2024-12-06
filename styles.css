@@ -189,7 +189,7 @@ h1 {
     z-index: -1; /* So shadows from top nav display over the main stage */
 
     padding: 40px 20px;
-    gap: 20px;
+    gap: 30px;
 }
 
 .content-box  h1 {
