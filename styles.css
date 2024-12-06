@@ -205,7 +205,7 @@ h2 {
 }
 
 .stage-content p {
-    color: rgba(61, 61, 61, 0.616);
+    color: rgba(49, 49, 49, 0.699);
 }
 
 .content-box  h1 {
@@ -263,5 +263,5 @@ h2 {
 }
 
 .announcement-block:not(.announcement-block:first-child) {
-    border-top: 2px solid rgba(94, 94, 94, 0.651);
+    border-top: 2px solid rgba(94, 94, 94, 0.527);
 }
