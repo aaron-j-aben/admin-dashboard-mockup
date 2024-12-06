@@ -250,8 +250,12 @@ h2 {
     grid-row: 2;
 }
 
+#announcements-container{
+    padding: 10px 35px;
+}
+
 .announcement-block {
-    padding: 15px 10px;
+    padding: 25px 10px;
 }
 
 .announcement-block:not(.announcement-block:first-child) {
