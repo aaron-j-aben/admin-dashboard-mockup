@@ -249,3 +249,7 @@ h2 {
     grid-column: 2;
     grid-row: 2;
 }
+
+.announcement-block:not(.announcement-block:first-child) {
+    border-top: 2px solid rgba(94, 94, 94, 0.651);
+}
