@@ -263,3 +263,12 @@ h2 {
 .announcement-block:not(.announcement-block:first-child) {
     border-top: 2px solid rgba(94, 94, 94, 0.527);
 }
+
+#trending-container {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.trending-user {
+    padding: 15px 0;
+}
