@@ -190,7 +190,7 @@ h2 {
     background-color: rgb(211, 218, 222);
     display: grid;
     grid-template-columns: 5fr 3fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr;
     z-index: -1; /* So shadows from top nav display over the main stage */
 
     padding: 40px 20px;
@@ -244,14 +244,12 @@ h2 {
 }
 
 /* Announcements and Trending Sections */
-#announcements {
-    grid-column: 2;
-    grid-row: 1;
+.sidebar {
+    grid-column: -2;
 }
 
 #trending {
-    grid-column: 2;
-    grid-row: 2;
+    margin-top: 20px;
 }
 
 #announcements-container{
